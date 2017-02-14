@@ -1,0 +1,17 @@
+These have not been tested but are suggestions.
+
+https://github.com/argilo/gr-ham
+A collection of GNU Radio blocks useful for amateur radio
+
+
+https://github.com/jolivain/gr-chaos
+Chaotic communication blocks for GNU Radio
+
+https://github.com/travisfcollins/gr-blocks
+GNU Radio Custom Blocks
+
+https://github.com/simonyiszk/gr_messagesink_tutorial
+An example of using GNU Radio Message Sink block from python for displaying FFT plots
+
+https://github.com/wishi/gr_3d_fft
+developing a 3d FFT block for GNU Radio
