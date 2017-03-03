@@ -1,0 +1,34 @@
+Documentation Team
+-	Meaning of color schemes (legend)
+-	Meaning of each block; List and explain meaning of each variable within each block; meaning of range, etc. 
+-	Out of tree modules; see programming team
+-	Existing documentation 
+
+Visual team 
+-	Objectives: built-in WIZARD search/help bar?  
+-	Tasks wish to achieve: color coding built-in tutorial, visualize progress thru wizard and effects of decision, contextual logic 
+-	Plan of action: 
+
+IX: Workflow Models
+-	Objectives: built-in WIZARD; understand how to navigate GNURadio: putting blocks together to see how they will output data, contextual logic 
+-	Tasks wish to achieve: built-in tutorial, access/ exit points, determine block selection sequence 
+-	Plan of action: 
+
+Marketing
+-	Task wish to achieve: Making wizard obvious for new user , Icon/logo 
+Programming Teame
+-	Objective: Building the out of tree modules 
+-	Limitation/constraints: TBD
+-	Tasks wish to achieve:
+-	Plan of action:
+
+Assumptions about users:
+-	No pre-existing workflow to import 
+-	Have an SDR (ensure plug-in is connected properly)
+-	Want to know/understand effects of wizard choices
+-	Make wizard obvious
+-	Task in mind: are you going to be sending or receiving signals or explore/play around
+
+Overall constraints/”out of scope”:
+-	Cannot change the codebase 
+
