@@ -1,0 +1,62 @@
+ Data Dictionary for GNU Radio:
+ 
+ 
+ 
+Flow graph: A graph containing at least one source & sink block through which data flows or referred to as a digraph of blocks.
+
+
+Blocks: allows only one signal processing operation at a time with an input port on one end & an output port on the other end- exception for source and sink blocks.
+
+
+“OPTIONS” Block: (This is the first block that you must drag on your canvas to begin your project) this block sets the global parameters of the flow graph.
+
+
+Properties for Options Block:
+
+
+
+ID: Name of generated Python file (top_block.py) and must be unique among the entire library of blocks. Suggestion: top_block.
+
+Title: Title of main GUI window or name of Hierarchical block. This is for identification purposes & can leave blank.
+
+Author: This is for identification purposes & can leave blank.
+
+Description: This is for identification purposes & can leave blank.
+
+Window size:  This is the GRC Canvas (the flow graph construction area) Width & Height must be between (300, 300) & (4096, 4096). Suggestion: 2560, 1440.
+
+Generate Options:
+
+
+
+SOURCE Block: This is the first block in the flow graph containing an output port only. It is responsible for accepting data from an external system (files of data, microphone, radio receiver…etc) and allowing the data to enter into GNU radio and the GNU flow graph through its block as well as generating samples to process and sending them as items through its output port into the next block in the flow graph.
+
+
+SINK Block: This is the final block in the flow graph containing an input port only.  It is responsible for accepting the item from the preceding block through its input port and enabling the item to exit the GNU flow graph as well as GNU radio and into an external system (file for storage, audio speakers, transmitter, GUIs….etc).
+
+
+Add a block: double click on a block in the block selection window.
+
+Connect blocks: click on the port of one block, then click on the port of another block.
+
+Remove a connection: click on the connection, press delete, or drag the connection to remove.
+
+Edit block parameters: double click on a block in the flow graph.
+
+Select a block, hit up/down for quick type change.
+
+Decimation of digital signal processing: the process of reducing the sampling rate of a signal. One way is using a low pass filter on the signal.
+
+Interpolation of digital signal processing: the process of increasing the sampling rate of a signal.
+
+The Fourier Transform (FFT):  is the most common analysis to take time domain data and create frequency domain data.
+
+Nyquist rate: is the sampling rate at which you have to sample a signal in order to capture all the frequency content of interest.
+Hierarchical blocks are blocks that are made up of other blocks.
+
+For more short cuts, see the hot keys in the menu.
+
+
+
+
+
