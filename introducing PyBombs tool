@@ -1,0 +1,18 @@
+One of the feature that we could consider installing or making users aware about is about
+PyBombs (Python Build Overlay Managed Bundle System). The wiki page on the GNU Radio website explains its features, but it could still be handy if 
+we keep an “useful features” page on our interface that enlists different quick and handy features that users can install to be able to 
+take advantage of apps that are built to make interaction with the GNU system a lot easier and interesting. PyBombs is referred to as a 
+“package management system” (bhilburn.org) and although GNU will still hold good without this bomb (as the GNU wiki page states) it’s still
+very much a favored tool, is simple and easy to install, and would make an ideal addition to the list of handy features. PyBombs can mix, 
+match, and install packages and helps the user work from source. With aid of a Python interpreter, PyBombs can “download, install, 
+and compile” (GNU Radio blog) packages wherever needed. Some of the features that this add-on includes are package recipes, 
+dependency checking & resolving, automated build system, and management of available & installed packages. (bhilburn.org)
+It makes working with multiple software packages a lot easier.
+The tool helps in the works around GNU Radio installs, and installing all associated dependencies, taking into account problems like
+version control, and installing and maintaining the out-of-tree modules. It also is platform independent and adheres to a basic 
+set of commands making it more user-friendly to adopt. 
+PyBombs is an all-in-one package system that is quite flexible depending upon the user’s needs. 
+The component file can be necessarily modified and tailored to due needs. Configuring out out-of-tree modules,
+what are the ones that exist, and which are specifically needed is all taken into account with PyBombs. 
+Although this feature is still in beta version, its considered to be a valuable tool in the GNU Radio community 
+and brings in a lot of handy features together and is a one stop installation of GNU Radio and its dependencies.
