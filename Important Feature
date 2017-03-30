@@ -1,0 +1,4 @@
+Since our wizard cannot be introduced to the user as a pop-up window, it is in the best interest for the success and usability of our program
+to be visual aesthetic. Whenever the user enters GRU, the wizard icon would present as a blinking green. If the user dismisses or exits the wizard
+(after usage), the icon will be a solid blue. If the wizard offers updates or new tips to navigate GRU, it will present to be yellow/gold in color.
+I wanted to distinguish blinking green from solid blue for users who may suffer from color blindness. 
